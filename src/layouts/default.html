@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fonts (anton + roboto condensed) -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font DELA GOTHIC ONE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Dela+Gothic+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <title>RockBox CrossFit</title>
+    <link rel="stylesheet" href="{{root}}assets/css/app.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <img
+        src="{{root}}assets/img/menu.svg"
+        class="nav_menu"
+        alt="burguer-menu"
+        data-toggle="menu-dropdown"
+        title="burguer-menu"
+      />
+      <img src="" alt="logo" />
+      <ul
+        class="dropdown-pane"
+        id="example-dropdown"
+        data-dropdown
+        data-auto-focus="true"
+      >
+        <li>Subscribe</li>
+        <li>Location</li>
+        <li>Prices</li>
+      </ul>
+    </nav>
+
+    {{> body}}
+
+    <footer class="footer">
+      <div>
+        <ul>
+          <li>
+            <a href="privacy-policy">Privacy policy</a>
+          </li>
+          <li>
+            <a href="terms-use">Terms of use</a>
+          </li>
+          <li>
+            <a href="gift-card">Gift Cards</a>
+          </li>
+          <li>
+            <a href="nutrition">Nutrition</a>
+          </li>
+        </ul>
+        <div>
+          <p>contact us</p>
+          <ul>
+            <li>
+              <i class="fab fa-youtube"></i>
+            </li>
+            <li>
+              <i class="fab fa-instagram"></i>
+            </li>
+            <li>
+              <i class="fab fa-twitter"></i>
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p>
+        <small> ©2021 RockBox CrossFit. All rights reserved. </small>
+      </p>
+    </footer>
+
+    <script src="{{root}}assets/js/app.js"></script>
+  </body>
+</html>
