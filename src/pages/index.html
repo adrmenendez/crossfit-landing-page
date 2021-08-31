@@ -1,1 +1,10 @@
-<main>{{> header}}</main>
+<main>
+  {{> header}}
+  <section class="cards">
+    <ul class="cards-items">
+      {{#each cards}}
+      <li>{{ this }}</li>
+      {{/each}}
+    </ul>
+  </section>
+</main>
