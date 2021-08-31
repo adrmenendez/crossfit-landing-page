@@ -3,4 +3,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__content {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+  }
 }
